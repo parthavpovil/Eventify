@@ -1,0 +1,43 @@
+:root {
+  --primary-purple: #CB9DF0;
+  --secondary-pink: #F0C1E1;
+  --accent-peach: #FDDBBB;
+  --accent-yellow: #FFF9BF;
+}
+
+.landing-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    gap: 20px;
+  }
+  
+  .landing-btn {
+    padding: 20px 40px;
+    font-size: 18px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  
+  .join-btn {
+    background-color: var(--primary-purple);
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .host-btn {
+    background-color: var(--secondary-pink);
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .landing-btn:hover {
+    opacity: 0.9;
+  }
+  
